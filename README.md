@@ -116,7 +116,7 @@ For more advanced testing of SQL Injection, you can use SQLmap, an automated too
 bash
 Copy
 Edit
-sqlmap -u "https://www.systumm.com/page?category=123" --risk=3 --level=5 --dbs
+sqlmap -u "https://www.example.com/page?category=123" --risk=3 --level=5 --dbs
 This command will run SQLmap against a given URL and attempt to detect SQL injection vulnerabilities.
 
 Contributing
